@@ -1,18 +1,20 @@
 /* Tema Oscuro */
 body {
   font-family: Arial, sans-serif;
-  background-color: #121212;
+  background-color: #1f1f1f;
   /* Fondo general oscuro */
   color: #ffffff;
   /* Texto blanco */
   margin: 0;
   padding: 0;
+  width: 100%;
 }
 
 .container {
   display: flex;
   flex-direction: column;
   height: 100vh;
+  width: 100%;
 }
 
 header {
@@ -28,6 +30,8 @@ header {
 .main {
   display: flex;
   flex: 1;
+  width: 100%;
+
 }
 
 .sidebar {
@@ -75,7 +79,7 @@ header {
 
 .content {
   flex: 1;
-  background-color: #1e1e1e;
+  background-color: #1f1f1f;
   /* Fondo del contenido oscuro */
   color: #e0e0e0;
   /* Texto claro */
